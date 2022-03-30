@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="food.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -15,32 +19,55 @@
                     <article class="card">
                         <div class="card__wrapper">
                             <div class="card__side">
-                                <img class="card__image" src="img/pizza.png" alt="pizza" srcset="">
-                                <img class="card__info" src="img/info.png" alt="info" srcset="">
+                                <div class="card__image" style="background-image: url('img/pizza.png');">
+                                    <button class="card__info button">
+                                        <img class="button__info" src="img/info.png" alt="info" srcset="">
+                                    </button>
+                                </div>
                             </div>            
                             <div class="card__main">
                                 <div class="card__header">
-                                    <div class="card__title">
-                                        Pepperoni Pizza
-                                    </div>
-                                    <div class="card__features-icons features-icons">
-                                        <img class="features-icons__image" src="img/icon_fire.png" alt="icon_fire" srcset="">
-                                        <img class="features-icons__image" src="img/icon_wheat.png" alt="icon_leaf" srcset="">
+                                    <h2 class="card__title">
+                                        Pepperoni Pizza Very Good And Awesome 
+                                    </h2>
+                                    <div class="card__tags tags">
+                                        <ul class="tags__items">
+                                            <li class="tags__item">
+                                                <img class="tags__image" src="img/icon_fire.png" alt="icon_fire" srcset="">
+                                            </li>
+                                            <li class="tags__item">
+                                                <img class="tags__image" src="img/icon_wheat.png" alt="icon_leaf" srcset="">
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="card__text">
+                                <p class="card__text">
                                     Premium pepperoni and cheese is made 
-                                    with real mozzarella on original hand-tossed crust.                                       
-                                </div>
-                                <div class="card__features features-text">
-                                    <div class="features-text__calories">265 Cal</div>
-                                    <div class="features-text__pfc">P/F/C: 12/10/31</div>
-                                    <div class="features-text__temperature">53.8 °C</div>
+                                    with real mozzarella on original hand-tossed crust. 
+                                    Premium pepperoni and cheese is made 
+                                    with real mozzarella on original hand-tossed crust.
+                                    Premium pepperoni and cheese is made 
+                                    with real mozzarella on original hand-tossed crust.
+                                    Premium pepperoni and cheese is made 
+                                    with real mozzarella on original hand-tossed crust.
+                                    Premium pepperoni and cheese is made 
+                                    with real mozzarella on original hand-tossed crust.                                      
+                                </p>
+                                <div class="card__features features">
+                                    <table class="features__info">
+                                        <tr class="features__items">
+                                            <td class="features__item">265 Cal</td>
+                                            <td class="features__item">P/F/C: 12/10/31</td>
+                                            <td class="features__item">53.8 °C</td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                             <div class="card__order">
-                                <div class="card__price">$23.90</div>
-                                <div class="card__price-old">$29.90</div>
+                                <div class="card__price price">
+                                    <div class="price__new">$23.90</div>
+                                    <div class="price__old">$29.90</div>
+                                </div>
                                 <div class="card__button button">
                                     <button class="button__order">ORDER</button>
                                 </div>
@@ -52,34 +79,51 @@
                     <article class="card">
                         <div class="card__wrapper">
                             <div class="card__side">
-                                <img class="card__image" src="img/tortellini.png" alt="tortellini" srcset="">
-                                <img class="card__info" src="img/info.png" alt="info" srcset="">
+                                <div class="card__image" style="background-image: url('img/tortellini.png');">
+                                    <button class="card__info button">
+                                        <img class="button__info" src="img/info.png" alt="info" srcset="">
+                                    </button>
+                                </div>
                             </div>            
                             <div class="card__main">
                                 <div class="card__header">
-                                    <div class="card__title">
-                                        Tortellini
-                                    </div>
-                                    <div class="card__features-icons features-icons">
-                                        <img class="features-icons__image" src="img/icon_leaf.png" alt="icon_leaf" srcset="">
-                                        <img class="features-icons__image" src="img/icon_fire.png" alt="icon_fire" srcset="">
-                                        <img class="features-icons__image" src="img/icon_wheat.png" alt="icon_leaf" srcset="">
+                                    <h2 class="card__title">
+                                        Tortellini 
+                                    </h2>
+                                    <div class="card__tags tags">
+                                        <ul class="tags__items">
+                                            <li class="tags__item">
+                                                <img class="tags__image" src="img/icon_leaf.png" alt="icon_leaf" srcset="">
+                                            </li>
+                                            <li class="tags__item">
+                                                <img class="tags__image" src="img/icon_fire.png" alt="icon_fire" srcset="">
+                                            </li>
+                                            <li class="tags__item">
+                                                <img class="tags__image" src="img/icon_wheat.png" alt="icon_leaf" srcset="">
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="card__text">
+                                <p class="card__text">
                                     Pasta stuffed with beef and pork topped with 
                                     your choice of cream sauce with bacon, 
-                                    bolognese or marinara sauce.                                       
-                                </div>
-                                <div class="card__features features-text">
-                                    <div class="features-text__calories">270 Cal</div>
-                                    <div class="features-text__pfc">P/F/C: 18/4/41</div>
-                                    <div class="features-text__temperature">42.4 °C</div>
+                                    bolognese or marinara sauce.                                      
+                                </p>
+                                <div class="card__features features">
+                                    <table class="features__info">
+                                        <tr class="features__items">
+                                            <td class="features__item">270 Cal</td>
+                                            <td class="features__item">P/F/C: 18/4/41</td>
+                                            <td class="features__item">42.4 °C</td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                             <div class="card__order">
-                                <div class="card__price">$17.90</div>
-                                <div class="card__price-old">$22.90</div>
+                                <div class="card__price price">
+                                    <div class="price__new">$17.90</div>
+                                    <div class="price__old">$22.90</div>
+                                </div>
                                 <div class="card__button button">
                                     <button class="button__order">ORDER</button>
                                 </div>
@@ -91,32 +135,45 @@
                     <article class="card">
                         <div class="card__wrapper">
                             <div class="card__side">
-                                <img class="card__image" src="img/cake.png" alt="cake" srcset="">
-                                <img class="card__info" src="img/info.png" alt="info" srcset="">
+                                <div class="card__image" style="background-image: url('img/cake.png');">
+                                    <button class="card__info button">
+                                        <img class="button__info" src="img/info.png" alt="info" srcset="">
+                                    </button>
+                                </div>
                             </div>            
                             <div class="card__main">
                                 <div class="card__header">
-                                    <div class="card__title">
-                                        Strawberry Cake
-                                    </div>
-                                    <div class="card__features-icons features-icons">
-                                        <img class="features-icons__image" src="img/icon_wheat.png" alt="icon_leaf" srcset="">
+                                    <h2 class="card__title">
+                                        Strawberry Cake 
+                                    </h2>
+                                    <div class="card__tags tags">
+                                        <ul class="tags__items">
+                                            <li class="tags__item">
+                                                <img class="tags__image" src="img/icon_wheat.png" alt="icon_leaf" srcset="">
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="card__text">
+                                <p class="card__text">
                                     Three layer strawberry dessert is not only 
                                     beautiful looking, but also delicious! Perfect 
-                                    dessert for spring and summer.
-                                </div>
-                                <div class="card__features features-text">
-                                    <div class="features-text__calories">346 Cal</div>
-                                    <div class="features-text__pfc">P/F/C: 6/14/49</div>
-                                    <div class="features-text__temperature">13.9 °C</div>
+                                    dessert for spring and summer.                                     
+                                </p>
+                                <div class="card__features features">
+                                    <table class="features__info">
+                                        <tr class="features__items">
+                                            <td class="features__item">346 Cal</td>
+                                            <td class="features__item">P/F/C: 6/14/49</td>
+                                            <td class="features__item">13.9 °C</td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                             <div class="card__order">
-                                <div class="card__price">$13.90</div>
-                                <div class="card__price-old">$18.90</div>
+                                <div class="card__price price">
+                                    <div class="price__new">$13.90</div>
+                                    <div class="price__old">$18.90</div>
+                                </div>
                                 <div class="card__button button">
                                     <button class="button__order">ORDER</button>
                                 </div>
